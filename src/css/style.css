@@ -285,6 +285,11 @@ footer .derecha a {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .botonadolfo {
   background-color: #E3CFF3;
   padding: 9px 25px;

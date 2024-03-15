@@ -6,6 +6,12 @@
 @import 'componentes/mediaqueries';
 @import 'base/extendes';
 
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .botonadolfo{
     background-color: $color-dos;
     padding: 9px 25px;
