@@ -1,0 +1,76 @@
+@import 'componentes/header';
+@import 'componentes/footer';
+@import 'componentes/muestrario';
+@import 'componentes/inicio';
+@import 'componentes/registro';
+@import 'componentes/mediaqueries';
+@import 'base/extendes';
+
+.botonadolfo{
+    background-color: $color-dos;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: $color-uno;
+}
+
+.separador{
+    padding: 90px;
+    @extend %centrar;
+    align-items: center;
+}
+
+.ima{
+    max-width: 100%;
+}
+
+.nosotross{
+    padding: 40px;
+    .titulo{
+        h2{
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.ubi{
+    padding: 30px;
+    .titulo{
+        h2{
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.iframe-responsivo{
+    width: 100%;
+    height: 400px;
+}
+
+.separador1{
+    padding: 100px;
+}
+
+span.product-condicion-principal {
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    line-height: 2.3;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: $color-uno;
+    text-align: center;
+    border-radius: 99px;
+    padding: 0 1.2em;
+    width: 150px;
+    color: black;
+}
+

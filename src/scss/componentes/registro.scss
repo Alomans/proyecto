@@ -1,0 +1,43 @@
+
+.container-reg{
+    width: 500px;
+    padding: 20px;
+    background: $color-dos;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    .titulo{
+        text-align: center;
+        border: solid $color-uno;
+        border-style: dashed;
+        padding: 15px;
+    }
+    .padre{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .nombre,.apellidos,.email,.contraseña{
+            display: flex;
+            flex-direction: column;
+            label{
+                padding-bottom: 5px;
+            }
+        }
+        input{
+            padding-top: 20px;
+        }
+        input:hover{
+            outline: solid $color-uno;
+        }
+        .cuenta{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+                padding-top: 5px;
+            }
+        }
+    }
+}
