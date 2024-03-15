@@ -9,6 +9,17 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .nav1{
+        .container{
+            ul{
+                align-items: center;
+                padding: 1px;
+            }
+        }
+    }
+}
+
 /*muestrario responsive*/
 
 @media screen and (min-width: 1030px) {
